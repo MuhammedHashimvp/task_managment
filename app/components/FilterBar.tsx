@@ -22,20 +22,18 @@ export default function FilterBar({
   return (
     <div className="flex flex-col md:flex-row gap-3 w-full">
       
-      {/* 🔍 Search */}
       <input
         type="text"
         placeholder="Search tasks..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="border rounded-md px-3 py-2 w-full md:w-1/3"
+        className="w-full md:w-1/3 px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 transition"
       />
 
-      {/* 📌 Status Filter */}
       <select
         value={status}
         onChange={(e) => setStatus(e.target.value)}
-        className="border rounded-md px-3 py-2 w-full md:w-1/4"
+        className="w-full md:w-1/4 px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 transition"
       >
         <option value="">All Status</option>
         <option value="Todo">Todo</option>
@@ -43,11 +41,10 @@ export default function FilterBar({
         <option value="Completed">Completed</option>
       </select>
 
-      {/* ⏳ Sort */}
       <select
         value={sort}
         onChange={(e) => setSort(e.target.value)}
-        className="border rounded-md px-3 py-2 w-full md:w-1/4"
+        className="w-full md:w-1/4 px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 transition"
       >
         <option value="">Sort by</option>
         <option value="asc">Due Date ↑</option>
