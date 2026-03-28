@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management App
 
-## Getting Started
+A simple and efficient **Task Management application** built with **Next.js**. This app allows users to create, update, filter, search, and sort tasks in a clean and intuitive interface.
 
-First, run the development server:
+---
 
-```bash
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview
+
+The Task Management App helps users manage their tasks efficiently. Users can:
+
+- Add new tasks
+- Edit existing tasks
+- Filter tasks based on status
+- Search tasks by name
+- Sort tasks by date
+
+The app is designed to be user-friendly and responsive.
+
+---
+
+## Features
+
+1. **Login Authentication** – Simple Auth
+2. **Add Task** – Create new tasks with description.
+3. **Edit Task** – Update task information.
+4. **Filter Tasks** – View tasks by status: Todo, In Progress, Completed.
+5. **Search Tasks** – Quickly find tasks by name.
+6. **Sort Tasks** – Organize tasks by newest or oldest.
+7. **Dashboard** – Overview of all tasks in one place.
+
+---
+
+## Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Add Task
+![Add Task](screenshots/add%20task.png)
+
+### Edit Task
+![Edit Task](screenshots/edit%20task.png)
+
+### Filters
+![Filters](screenshots/filters.png)
+
+### Filter by Todo
+![Filter by Todo](screenshots/filter%20by%20todo.png)
+
+### Filter by In Progress
+![Filter by In Progress](screenshots/filter%20by%20in%20progress.png)
+
+### Filter by Completed
+![Filter by Completed](screenshots/filter%20by%20completed.png)
+
+### Search by Name
+![Search by Name](screenshots/search%20by%20name.png)
+
+### Sort by Newest
+![Sort by Newest](screenshots/sort%20by%20newest.png)
+
+### Sort by Oldest
+![Sort by Oldest](screenshots/sort%20by%20oldest.png)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/MuhammedHashimvp/task_managment
+
+# Navigate to the project folder
+cd task_managment
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Open your browser at:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. Login with simple auth ( username : admin , password : admin@123 ) 
+2. Navigate to the dashboard to view tasks.
+3. Add a new task using the "Add Task" button.
+4. Edit any task by clicking the "Edit" icon.
+5. Use filters to view tasks by status.
+6. Search tasks by name using the search bar.
+7. Sort tasks by newest or oldest.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- React
+- TypeScript
+- SessionStorage (for authentication state)
+- Shadecn/ui
+- TailWind CSS
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
