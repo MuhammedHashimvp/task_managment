@@ -12,8 +12,6 @@ A simple and efficient **Task Management application** built with **Next.js**. T
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -86,16 +84,16 @@ The app is designed to be user-friendly and responsive.
 
 git clone https://github.com/MuhammedHashimvp/task_managment
 
-# Navigate to the project folder
+### Navigate to the project folder
 cd task_managment
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run the development server
+### Run the development server
 npm run dev
 
-# Open your browser at:
+### Open your browser at:
 http://localhost:3000
 
 ---
